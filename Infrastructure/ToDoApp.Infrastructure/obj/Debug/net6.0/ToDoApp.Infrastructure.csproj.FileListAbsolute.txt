@@ -1,0 +1,17 @@
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\bin\Debug\net6.0\ToDoApp.Infrastructure.deps.json
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\bin\Debug\net6.0\ToDoApp.Infrastructure.dll
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\bin\Debug\net6.0\ToDoApp.Infrastructure.pdb
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\bin\Debug\net6.0\ToDoApp.Application.dll
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\bin\Debug\net6.0\ToDoApp.Domain.dll
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\bin\Debug\net6.0\ToDoApp.Application.pdb
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\bin\Debug\net6.0\ToDoApp.Domain.pdb
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\obj\Debug\net6.0\ToDoApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\obj\Debug\net6.0\ToDoApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\obj\Debug\net6.0\ToDoApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\obj\Debug\net6.0\ToDoApp.Infrastructure.AssemblyInfo.cs
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\obj\Debug\net6.0\ToDoApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\obj\Debug\net6.0\ToDoApp.Infrastructure.csproj.CopyComplete
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\obj\Debug\net6.0\ToDoApp.Infrastructure.dll
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\obj\Debug\net6.0\refint\ToDoApp.Infrastructure.dll
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\obj\Debug\net6.0\ToDoApp.Infrastructure.pdb
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Infrastructure\ToDoApp.Infrastructure\obj\Debug\net6.0\ref\ToDoApp.Infrastructure.dll

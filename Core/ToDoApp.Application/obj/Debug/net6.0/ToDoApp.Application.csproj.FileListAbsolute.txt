@@ -1,0 +1,15 @@
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\bin\Debug\net6.0\ToDoApp.Application.deps.json
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\bin\Debug\net6.0\ToDoApp.Application.dll
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\bin\Debug\net6.0\ToDoApp.Application.pdb
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\bin\Debug\net6.0\ToDoApp.Domain.dll
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\bin\Debug\net6.0\ToDoApp.Domain.pdb
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\obj\Debug\net6.0\ToDoApp.Application.csproj.AssemblyReference.cache
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\obj\Debug\net6.0\ToDoApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\obj\Debug\net6.0\ToDoApp.Application.AssemblyInfoInputs.cache
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\obj\Debug\net6.0\ToDoApp.Application.AssemblyInfo.cs
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\obj\Debug\net6.0\ToDoApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\obj\Debug\net6.0\ToDoApp.Application.csproj.CopyComplete
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\obj\Debug\net6.0\ToDoApp.Application.dll
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\obj\Debug\net6.0\refint\ToDoApp.Application.dll
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\obj\Debug\net6.0\ToDoApp.Application.pdb
+C:\Users\KemalÖzer\Desktop\Practice\my-apps\ToDoApp\ToDoApp\Core\ToDoApp.Application\obj\Debug\net6.0\ref\ToDoApp.Application.dll
