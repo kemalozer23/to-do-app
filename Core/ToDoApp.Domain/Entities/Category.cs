@@ -12,5 +12,7 @@ namespace ToDoApp.Domain.Entities
     {
         [Required]
         public string? Name { get; set; }
+
+        public IEnumerable<Task>? Tasks { get; set; }
     }
 }

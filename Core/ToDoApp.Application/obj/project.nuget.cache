@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XDmIVu9Yy0VOwig0tsoSehi3uh94a3T0AYB2YJuWgu3fVJp8R9JTcErfbjTCVcPZ9OA8j9E+m8ITZFXwLKB/mA==",
+  "dgSpecHash": "miAYB6qnSb8vNDWt1vnDEzso8ey6OwvB+ajIgOFc8z5C2rvWBgKFSX6Uif0otUBeap3tfrmCSvakZ4yTiogO/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\KemalÖzer\\Desktop\\Practice\\my-apps\\ToDoApp\\ToDoApp\\Core\\ToDoApp.Application\\ToDoApp.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\KemalÖzer\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\KemalÖzer\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\KemalÖzer\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\KemalÖzer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

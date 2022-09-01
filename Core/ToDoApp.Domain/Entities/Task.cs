@@ -12,7 +12,9 @@ namespace ToDoApp.Domain.Entities
     {
         [Required]
         public string? Description { get; set; }
-        public bool IsComplete { get; set; }
+        public bool IsComplete { get; set; } = false;
+
+        public int CategoryId { get; set; }
         public Category? Category { get; set; }
     }
 }
