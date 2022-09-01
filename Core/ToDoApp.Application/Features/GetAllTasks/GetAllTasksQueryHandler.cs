@@ -34,7 +34,6 @@ namespace ToDoApp.Application.Features.GetTask
 
                 taskDtos.Add(taskDto);
             }
-
             response.Tasks = taskDtos;
 
             return response;
