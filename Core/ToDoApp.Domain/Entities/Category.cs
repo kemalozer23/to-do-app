@@ -10,7 +10,6 @@ namespace ToDoApp.Domain.Entities
 {
     public class Category : BaseEntity
     {
-        [Required]
         public string? Name { get; set; }
 
         public IEnumerable<Task>? Tasks { get; set; }

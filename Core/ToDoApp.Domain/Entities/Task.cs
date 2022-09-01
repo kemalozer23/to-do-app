@@ -10,7 +10,6 @@ namespace ToDoApp.Domain.Entities
 {
     public class Task : BaseEntity
     {
-        [Required]
         public string? Description { get; set; }
         public bool IsComplete { get; set; } = false;
 

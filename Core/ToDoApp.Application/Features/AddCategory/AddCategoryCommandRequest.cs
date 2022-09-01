@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace ToDoApp.Application.Features.AddCategory
 {
-    public class AddCategoryCommandResponse
+    public class AddCategoryCommandRequest : IRequest<AddCategoryCommandResponse>
     {
+        public string? Name { get; set; }
     }
 }

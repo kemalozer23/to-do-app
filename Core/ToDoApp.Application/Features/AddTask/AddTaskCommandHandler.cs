@@ -10,7 +10,7 @@ namespace ToDoApp.Application.Features.AddTask
 {
     public class AddTaskCommandHandler : IRequestHandler<AddTaskCommandRequest, AddTaskCommandResponse>
     {
-        readonly IRepositoryManager _repository;
+        private readonly IRepositoryManager _repository;
 
         public AddTaskCommandHandler(IRepositoryManager repository)
         {

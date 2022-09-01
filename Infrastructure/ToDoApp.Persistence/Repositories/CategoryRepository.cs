@@ -15,5 +15,10 @@ namespace ToDoApp.Persistence.Repositories
         : base(toDoDbContext)
         {
         }
+
+        public void CreateCategory(Category category)
+        {
+            Create(category);
+        }
     }
 }
