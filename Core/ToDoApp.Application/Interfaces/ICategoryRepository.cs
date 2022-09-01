@@ -7,8 +7,7 @@ using ToDoApp.Domain.Entities;
 
 namespace ToDoApp.Application.Interfaces
 {
-    public interface ICategoryRepository
+    public interface ICategoryRepository : IRepositoryBase<Category>
     {
-        void CreateCategory(Category category);
     }
 }

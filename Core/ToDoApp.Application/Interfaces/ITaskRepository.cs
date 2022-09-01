@@ -7,8 +7,7 @@ using ToDoApp.Application.Features;
 
 namespace ToDoApp.Application.Interfaces
 {
-    public interface ITaskRepository
+    public interface ITaskRepository : IRepositoryBase<Domain.Entities.Task>
     {
-        void CreateTask(Domain.Entities.Task task);
     }
 }

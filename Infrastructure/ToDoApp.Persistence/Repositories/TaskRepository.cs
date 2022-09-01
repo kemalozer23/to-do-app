@@ -15,10 +15,5 @@ namespace ToDoApp.Persistence.Repositories
         : base(toDoDbContext)
         {
         }
-
-        public void CreateTask(Domain.Entities.Task task)
-        {
-            Create(task);
-        }
     }
 }

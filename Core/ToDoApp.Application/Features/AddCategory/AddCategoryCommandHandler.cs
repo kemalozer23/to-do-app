@@ -23,7 +23,7 @@ namespace ToDoApp.Application.Features.AddCategory
             Category category = new();
             category.Name = request.Name;
 
-            _repository.Category.CreateCategory(category);
+            _repository.Category.Create(category);
             _repository.Save();
 
             return new();

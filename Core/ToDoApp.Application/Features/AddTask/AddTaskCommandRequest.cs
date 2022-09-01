@@ -11,6 +11,8 @@ namespace ToDoApp.Application.Features.AddTask
     public class AddTaskCommandRequest : IRequest<AddTaskCommandResponse>
     {
         public string? Description { get; set; }
+
+        //public int CategoryId { get; set; }
         public string CategoryName { get; set; }
     }
 }
