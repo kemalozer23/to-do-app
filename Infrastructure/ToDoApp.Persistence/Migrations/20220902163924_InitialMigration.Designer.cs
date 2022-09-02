@@ -11,8 +11,8 @@ using ToDoApp.Persistence.Context;
 namespace ToDoApp.Persistence.Migrations
 {
     [DbContext(typeof(ToDoDbContext))]
-    [Migration("20220901201026_autogen-int-idds")]
-    partial class autogenintidds
+    [Migration("20220902163924_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,7 +32,6 @@ namespace ToDoApp.Persistence.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -52,7 +51,6 @@ namespace ToDoApp.Persistence.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsComplete")

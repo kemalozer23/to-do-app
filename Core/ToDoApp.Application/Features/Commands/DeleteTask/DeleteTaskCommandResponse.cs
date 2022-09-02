@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ToDoApp.Application.Features.Commands.DeleteTask
 {
-    internal class DeleteTaskCommandController
+    public class DeleteTaskCommandResponse
     {
+        public string Response { get; set; } = "Deleted successfully";
     }
 }

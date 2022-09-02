@@ -16,13 +16,13 @@ namespace ToDoApp.API.Controllers
             _mediator = mediator;
         }
 
-        [HttpPost]
+        [HttpPost("AddCategory")]
         public async Task AddCategory([FromQuery] AddCategoryCommandRequest request)
         {
             await _mediator.Send(request);
         }
 
-        [HttpGet]
+        [HttpGet("GetAllCategories")]
         public async Task<GetAllCategoriesQueryResponse> GetAllCategories([FromQuery] GetAllCategoriesQueryRequest request)
         {
             return await _mediator.Send(request);
