@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ToDoApp.Application.Features.Queries.GetAllTasks;
 using ToDoApp.Application.Interfaces;
-using static ToDoApp.Application.Features.GetTask.GetAllTasksQueryResponse;
+using static ToDoApp.Application.Features.Queries.GetAllTasks.GetAllTasksQueryResponse;
 
-namespace ToDoApp.Application.Features.GetTask
+namespace ToDoApp.Application.Features.Queries.GetAllTasks
 {
     public class GetAllTasksQueryHandler : IRequestHandler<GetAllTasksQueryRequest, GetAllTasksQueryResponse>
     {
@@ -20,9 +21,7 @@ namespace ToDoApp.Application.Features.GetTask
 
         public async Task<GetAllTasksQueryResponse> Handle(GetAllTasksQueryRequest request, CancellationToken cancellationToken)
         {
-            GetAllTasksQueryResponse response = new();
             List<TaskDto> taskDtos = new(); 
-
             var tasks = _repository.Task.FindAll(true).ToList(); 
             foreach (var task in tasks)
             {
@@ -34,9 +33,11 @@ namespace ToDoApp.Application.Features.GetTask
 
                 taskDtos.Add(taskDto);
             }
-            response.Tasks = taskDtos;
 
-            return response;
+            return new()
+            {
+                Tasks = taskDtos,
+            };
         }
     }
 }

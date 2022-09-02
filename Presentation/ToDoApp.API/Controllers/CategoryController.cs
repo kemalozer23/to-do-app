@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using ToDoApp.Application.Features.AddCategory;
-using ToDoApp.Application.Features.AddTask;
+using ToDoApp.Application.Features.Commands.AddCategory;
+using ToDoApp.Application.Features.Queries.GetAllCategories;
 
 namespace ToDoApp.API.Controllers
 {
@@ -17,9 +17,15 @@ namespace ToDoApp.API.Controllers
         }
 
         [HttpPost]
-        public async Task AddTask([FromQuery] AddCategoryCommandRequest request)
+        public async Task AddCategory([FromQuery] AddCategoryCommandRequest request)
         {
             await _mediator.Send(request);
+        }
+
+        [HttpGet]
+        public async Task<GetAllCategoriesQueryResponse> GetAllCategories([FromQuery] GetAllCategoriesQueryRequest request)
+        {
+            return await _mediator.Send(request);
         }
     }
 }

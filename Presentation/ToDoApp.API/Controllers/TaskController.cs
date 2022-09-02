@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using ToDoApp.Application.Features.AddTask;
-using ToDoApp.Application.Features.GetTask;
+using ToDoApp.Application.Features.Commands.AddTask;
+using ToDoApp.Application.Features.Queries.GetAllTasks;
 
 namespace ToDoApp.API.Controllers
 {

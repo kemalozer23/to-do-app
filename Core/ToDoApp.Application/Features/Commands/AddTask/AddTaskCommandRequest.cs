@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ToDoApp.Domain.Entities;
 
-namespace ToDoApp.Application.Features.AddTask
+namespace ToDoApp.Application.Features.Commands.AddTask
 {
     public class AddTaskCommandRequest : IRequest<AddTaskCommandResponse>
     {

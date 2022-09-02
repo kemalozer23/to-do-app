@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ToDoApp.Application.Features.AddCategory
+namespace ToDoApp.Application.Features.Commands.DeleteTask
 {
-    public class AddCategoryCommandResponse
+    public class DeleteTaskCommandHandler
     {
     }
 }

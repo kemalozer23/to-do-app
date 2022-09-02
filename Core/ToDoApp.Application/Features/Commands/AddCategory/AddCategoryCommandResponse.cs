@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ToDoApp.Application.Features.Category.GetAllCategories
+namespace ToDoApp.Application.Features.Commands.AddCategory
 {
-    internal class GetAllCategoriesQueryRequest
+    public class AddCategoryCommandResponse
     {
     }
 }

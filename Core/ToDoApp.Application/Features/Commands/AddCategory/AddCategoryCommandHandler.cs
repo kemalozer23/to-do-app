@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using ToDoApp.Application.Interfaces;
 using ToDoApp.Domain.Entities;
 
-namespace ToDoApp.Application.Features.AddCategory
+namespace ToDoApp.Application.Features.Commands.AddCategory
 {
     internal class AddCategoryCommandHandler : IRequestHandler<AddCategoryCommandRequest, AddCategoryCommandResponse>
     {

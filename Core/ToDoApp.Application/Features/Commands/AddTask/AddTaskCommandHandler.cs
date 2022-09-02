@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using ToDoApp.Application.Interfaces;
 using ToDoApp.Domain.Entities;
 
-namespace ToDoApp.Application.Features.AddTask
+namespace ToDoApp.Application.Features.Commands.AddTask
 {
     public class AddTaskCommandHandler : IRequestHandler<AddTaskCommandRequest, AddTaskCommandResponse>
     {
@@ -25,7 +25,7 @@ namespace ToDoApp.Application.Features.AddTask
             task.Description = request.Description;
 
             var categoryExists = _repository.Category.FindAll(true).Select(x => x.Name).Contains(request.CategoryName);
-            if(categoryExists == false)
+            if (categoryExists == false)
             {
                 Category category = new();
                 category.Name = request.CategoryName;
