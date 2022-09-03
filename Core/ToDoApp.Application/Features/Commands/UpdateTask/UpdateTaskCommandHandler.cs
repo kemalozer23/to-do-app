@@ -20,8 +20,11 @@ namespace ToDoApp.Application.Features.Commands.UpdateTask
         public async Task<UpdateTaskCommandResponse> Handle(UpdateTaskCommandRequest request, CancellationToken cancellationToken)
         {
             var task = _repository.Task.FindByCondition(x => x.Id == request.Id, true).First();
+            
             task.IsComplete = request.IsComplete;
-            task.Description = request.Description;
+
+            if (request.Description != null)
+                task.Description = request.Description;
 
             _repository.Task.Update(task);
             _repository.Save();

@@ -20,7 +20,7 @@ namespace ToDoApp.Application.Features.Queries.GetTaskByCondition
         public async Task<GetTaskByIdQueryResponse> Handle(GetTaskByIdQueryRequest request, CancellationToken cancellationToken)
         {
             var task = _repository.Task.FindByCondition(x => x.Id == request.Id, true).First();
-            var categoryName = _repository.Category.FindByCondition(x => x.Id == request.Id, true).Select(c => c.Name).First();
+            var categoryName = _repository.Category.FindByCondition(x => x.Id == task.CategoryId, true).Select(c => c.Name).First();
 
             return new()
             {
